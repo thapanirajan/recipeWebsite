@@ -1,0 +1,254 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 670px) {
+    .flex-container {
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    li {
+        display: block;
+    }
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+#world {
+    color: chocolate;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-tabs ul {
+    list-style: none;
+}
+
+.navigation-tabs a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation-tabs li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+/* end of navbar  */
+
+/* start of main-body  */
+.div1 {
+    background-color: #A8A196;
+    padding: 10px;
+    height: 400px;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* cards */
+.recipe-cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-card {
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.cards {
+    text-align: center;
+
+}
+
+.cards:hover {
+    box-shadow: 2px 2px 2px 8px #d6d6d6,
+        2px 2px 2px 15px #cc8c1c;
+}
+
+.what-we-do-card {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin: auto;
+    /* margin-bottom: 10px; */
+
+}
+
+.we-do-cards {
+    width: 200px;
+    background-color: #d6d6d6;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 5px;
+    /* background-color: #7A7A7A; */
+    /* color: white; */
+}
+
+.about {
+    padding: 20px;
+    height: 200px;
+    background-color: #F4E0B9;
+}
+
+/* dumplings.html  */
+.welcome {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px green;
+    background-color: #d6d6d6;
+    padding: 20px;
+}
+
+.image-recipes {
+    margin-top: 30px;
+
+}
+
+.recipe-image {
+    width: 400px;
+    position: relative;
+    left: 37%;
+    border-radius: 8px;
+    display: block;
+    cursor: pointer;
+    height: 300px;
+}
+
+.recipe-image:hover {
+    box-shadow: 2px 2px 2px 8px #d6d6d6,
+        2px 2px 2px 15px yellow;
+}
+
+.hr-line {
+    width: 500px;
+    background-color: #7A7A7A;
+    margin: auto;
+    height: 2px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.recipe {
+    display: flex;
+    justify-content: space-around;
+    /* height: 400px; */
+}
+
+.ing,
+.proce {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+
+.list {
+    margin-left: 25px;
+}
+
+.list ul,
+.lists ul {
+    list-style: none;
+    line-height: 40px;
+}
+
+
+
+.lists {
+    width: 400px;
+}
+
+.numb {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.check {
+    background-color: #d6d6d6;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px green;
+}
+
+.contact-us-container {
+    height: 560px;
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.contact-details {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px;
+    object-fit: cover;
+    /* background-position: center; */
+}
+
+.details ul {
+    list-style: none;
+    line-height: 50px;
+    font-size: 20px;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
